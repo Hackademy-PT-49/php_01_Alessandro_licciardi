@@ -93,4 +93,28 @@ $words2 = [
 
 print_r($words1);
 
-echo $words1([6][3][1][1] . " " . [6][3][0]);
+//echo ($words1[6][3][1][1] . " " . $words[6][3][0]);
+
+
+
+
+$users = [
+
+	//['name' => 'Davide', 
+	//'surname' => 'Cariola', 
+	//'gender' => 'Maschio'];
+
+	['name' => 'Gopvanna'
+	'surname'=> 'Agrippina'
+	'gender' => 'femmina'];
+
+	['name' => 'Alberto'
+	'surname => Mingardi
+	'gender' => Maschio'];
+   
+   ];
+
+   foreach ($users as $key => $value) {
+	echo "buongiorno sono" . $key['name'];
+   }
+   

@@ -1,20 +1,34 @@
 
+<?php
+
 $users = [
 
-['name' => 'Davide', 
-'surname' => 'Cariola', 
-'gender' => 'NB'];
+    "signor*" => [   
+        'name' => 'Davide', 
+        'surname' => 'Cariola', 
+        'gender' => 'bisex',
+    ],
 
-['name' => 'Gopvanna'
-'surname'=> 'Agrippina'
-'gender' => 'femmina'];
+    "signora" => [   
+        'name' => 'Gopvanna',
+        'surname'=> 'Agrippina',
+        'gender' => 'femmina',
+    ],
 
-['name' => 'Alberto'
-'surname => Mingardi
-'gender' => Maschio'];
+    "signore" => [
+        'name' => 'Alberto',
+        'gender' => 'Maschio'
+    ]
 
 ];
 
-foreach ($users as $key => $value) {
-echo "buongiorno sono $key"
+
+
+foreach ($users as $chiave => $value) {
+
+
+echo "buongiorno" . " " . $chiave . " " . $value ['name']."\n";
+
+    
 }
+
